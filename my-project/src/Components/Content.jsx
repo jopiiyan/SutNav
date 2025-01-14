@@ -5,7 +5,7 @@ import Card from "./Card";
 const Content = () => {
   return (
     <div className="p-4 mt-[3rem] flex justify-center items-center">
-      <div className="flex flex-col px-[5rem] md:px-0 justify-center md:flex-row md:gap-6 w-full h-full">
+      <div className="flex flex-col px-[4rem] md:px-0 justify-center md:flex-row md:gap-6 w-full h-full">
         <Card
           title="WHY SUTNAV"
           message="Provide Easy Navigation"
@@ -19,19 +19,19 @@ const Content = () => {
           />
           <Card
             title="IDK"
-            message="Provide Easy Navigation"
+            message="uhm"
             image={navigate}
           />
         </div>
         <div className="flex flex-col gap-[1rem]">
           <Card
-            title="WHY SUTNAV"
-            message="Provide Easy Navigation"
+            title="IDK"
+            message="uhm"
             image={lost}
           />
           <Card
-            title="WHY SUTNAV"
-            message="Provide Easy Navigation"
+            title="IDK"
+            message="uhm"
             image={handphone}
           />
         </div>

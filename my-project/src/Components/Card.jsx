@@ -11,7 +11,7 @@ const Card = ({ title, message, image }) => {
         backgroundPosition: "right",
         backgroundRepeat: "no-repeat",
       }}
-      className="min-h-[300px] max-w-[700px] w-full rounded-3xl shadow-md cursor-pointer flex hover:scale-105 transition-all ease-in-out duration-200"
+      className="min-h-[300px] max-w-[700px] min-w-[300px] w-full rounded-3xl shadow-md cursor-pointer flex hover:scale-105 transition-all ease-in-out duration-200"
     >
       <div className="min-w-[200px] w-full min-h-[180px] flex justify-center items-center gap-5 ">
         {/*Text */}
